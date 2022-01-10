@@ -1,36 +1,19 @@
-# React Boilerplate
+# Math Tra1n3r
 
 I made this thinking in my own development process but feel free to use it if you want :ok_hand:
 
 ## How to use it
 
-Installing:
+Building:
 
-    git clone https://github.com/guidovizoso/react-boilerplate.git
-    npm install
+    npm run start
+    firebase deploy
 
-Commands:
+Firebase Troubleshooting:
 
-    npm run dev /* Runs webpack dev server and live reloading */
-    npm run start /* Runs webpack in production mode with optimizations */
+    firebase logout
+    firebase login
 
-## Folder structure
-
-```
-├── src
-│   ├── index.js // Renders everything
-│   ├── App.jsx // Main component
-│   ├── App.css // Main component styles (one stylesheet per component)
-│   └── assets // Images and stuff goes here
-├── dist // Compiled files goes here
-├── package.json
-├── .babelrc
-├── .eslintrc
-├── webpack.common.js
-├── webpack.dev.js
-├── webpack.prod.js
-└── .gitignore
-```
 
 ## Variables
 
@@ -48,10 +31,3 @@ Commands:
 
 ## Roadmap
 
-* [x] Initial version
-* [x] Img support
-* [x] Optional SASS and PostCSS
-* [ ] Optional Heroku and Now integration
-* [ ] Testing support
-
-:speech_balloon: Made by **Guido Vizoso** <[https://www.linkedin.com/in/guidovizoso/](https://www.linkedin.com/in/guidovizoso/)>
